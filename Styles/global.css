@@ -27,8 +27,26 @@
   --subtitle: 400 20px/120% var(--inconsolata);
   --text-md: 400 16px/140% var(--maven-pro);
   --text-sm: 400 14px/140% var(--maven-pro);
+
+  --bg-intro: url(/Assets/background/Background_Intro.png);
+  --bg-contacts: url(/Assets/background/Background_Contacts.png);
+}
+
+body {
+  height: 100vh;
 }
 
 .container {
+  display: flex;
   max-width: 1040px;
+  flex-direction: column;
+  text-align: center; 
+}
+
+h1, h2, h3 { 
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
 }

@@ -1,0 +1,82 @@
+section  {
+  background-size: cover;
+  display: flex;
+}
+
+#bg_intro {
+  background-image: var(--bg-intro);
+  height: 1080px;
+
+  header { 
+    margin: 0 auto;
+    align-items: center;
+
+    .profile {
+      padding-top: 120px;
+      padding-bottom: 36px;
+    }
+
+    .subtitle {
+      padding-bottom: 8px;
+    }
+
+    p:last-child {
+      padding-top: 20px;
+      max-width: 680px;
+    }
+
+    .span1 {
+    color: var(--red);
+    }
+
+    .tag_org {
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
+    .tag_icons {
+      display: flex;
+      align-items: center;
+      
+      padding-top: 80px;
+      gap: 8px;
+      font: var(--text-md);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 20px; 
+      background-color: var(--gray-300); 
+      border-radius: 50px;
+    }
+
+    span {
+      color: var(--gray-500);
+    }
+
+    .CaretDoubleDown {
+      padding-top: 100px;
+      
+    }
+  }
+}
+
+#bg_color1 {
+  background-color: var(--gray-200);
+  height: 1117px;
+}
+
+#bg_color2 {
+  background-color: var(--gray-100);
+  height: 580px;
+}
+
+#bg_final {
+  background-image: var(--bg-contacts);
+  height: 1080px;
+}
