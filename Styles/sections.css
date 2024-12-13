@@ -142,7 +142,6 @@ section  {
 
       text-align: left;
 
-
       p { 
         padding-top: 20px;
         padding-bottom: 8px;
@@ -164,5 +163,64 @@ section  {
 
 #bg_final {
   background-image: var(--bg-contacts);
-  height: 1080px;
+  height: 980px;
+
+  main {
+    margin: 0 auto;
+    display: flex;
+
+    div {
+      padding-top: 240px;
+      
+      h3 {
+        font: var(--subtitle);
+        color: var(--purple);
+      }
+
+      h2 { 
+        font: var(--h2);
+        color: var(--gray-600);
+
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+
+      p { 
+        font: var(--text-md);
+        color: var(--gray-500);
+      }
+    }
+
+    .cards_3 { 
+      padding-top: 48px;
+
+      display: grid;
+      grid-template-columns: repeat(1, 4fr);
+      grid-gap: 16px;
+    }
+
+    .border_card2 { 
+      display: inline-flex;
+
+      padding: 26px 40px;
+      background-color: var(--gray-300);
+      border-radius: 12px;
+
+      text-align: left;
+      align-items: center;
+
+      img {
+        height: 28px;
+      }
+
+      p { 
+        padding-left: 12px;
+      }
+
+      .arrow { 
+        margin-left: auto;
+        height: 20px;
+      }
+    }
+  }
 }
